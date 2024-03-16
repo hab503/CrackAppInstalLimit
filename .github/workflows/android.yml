@@ -8,10 +8,10 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  #push:
+    #branches: [ master ]
+  #pull_request:
+    #branches: [ master ]
 
 jobs:
   build:
